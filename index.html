@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Job Application</title>
+    <title>My Blogs</title>
   </head>
   <body>
-    <h1>Job Application</h1>
+    <!-- <h1>Job Application</h1>
     <h2 id="result"></h2>
     <form action="index.html">
       <label for="firstname">First Name</label><br />
@@ -33,7 +33,7 @@
       const params = new URLSearchParams(window.location.search);
       const firstname = params.get("firstname");
       document.getElementById("result").textContent = firstname;
-    </script>
+    </script> -->
 
     <!-- <style>
       body {
@@ -68,5 +68,60 @@
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
     ></iframe> -->
+    <!-- <header>
+      <nav>
+        <a href="blog1.html">
+          <p>Blog 1</p>
+        </a>
+        <a href="blog2.html">
+          <p>Blog 2</p>
+        </a>
+        <a href="blog3.html">
+          <p>Blog 3</p>
+        </a>
+      </nav>
+    </header> -->
+    <main>
+      <h1>My blogs</h1>
+      <section>
+        <div>
+          <a href="blog1.html">
+            <img
+              src="assets/blog1.png"
+              alt="blog1"
+              height="300px"
+              width="500px"
+            />
+            <h2>Blog 1</h2>
+            <p>Blog 1 description here...</p>
+          </a>
+        </div>
+        <div>
+          <a href="blog2.html">
+            <img
+              src="assets/blog2.png"
+              alt="blog2"
+              height="300px"
+              width="500px"
+            />
+            <h2>Blog 2</h2>
+            <p>Blog 2 description here...</p>
+          </a>
+        </div>
+        <div>
+          <a href="blog3.html">
+            <img
+              src="assets/blog3.png"
+              alt="blog3"
+              height="300px"
+              width="500px"
+            />
+            <h2>Blog 3</h2>
+            <p>Blog 3 description here...</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer><p>Thank you for coming!</p></footer>
   </body>
 </html>
